@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cliente SPA Router</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><button  onclick="router.loadRoute('')">Home</button></li>
+        <li><button  onclick="router.loadRoute('contact')">Acerca de</button></li>
+        <li><button  onclick="router.loadRoute('about')">Contacto</button></li>
+    </ul>
+</nav>
+<div data-router>
+</div>
+
+<script src="../router.js"></script>
+<script src="../routes.js"></script>
+<script src="../index.js"></script>
+
+</body>
+</html>
